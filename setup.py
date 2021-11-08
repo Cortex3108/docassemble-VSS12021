@@ -42,19 +42,19 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
                 out.setdefault(package, []).append(prefix+name)
     return out
 
-setup(name='docassemble.VSS12021',
-      version='0.0.1',
-      description=('VSS1 Handbook'),
-      long_description='# docassemble.VSS12021\n\nVSS1 Handbook\n\n## Author\n\nSam George, geor0287@flinders.edu.au\n\n',
+setup(name='docassemble.LLAW33012021S1VSS1',
+      version='1.0.0',
+      description=('A docassemble extension.'),
+      long_description='This application was developed to aid companions volunteering with Victim Services South Australia. This application will provide various information relating to their role as companions.\r\n\r\nVolunteering as a companion can be stressfull and confusing at times so having access to accurate and neatly presented information to aid them in their volunteering can free up much of their time and mental space.\r\n\r\nThe application includes an option to download or send each page of information as a non-editable PDF file for the companion to use for future reference or to send to their clients for them to read over.\r\n',
       long_description_content_type='text/markdown',
-      author='Sam George',
-      author_email='geor0287@flinders.edu.au',
+      author='Mark Ferraretto',
+      author_email='mark.ferraretto@flinders.edu.au',
       license='The MIT License (MIT)',
       url='https://docassemble.org',
       packages=find_packages(),
       namespace_packages=['docassemble'],
       install_requires=[],
       zip_safe=False,
-      package_data=find_package_data(where='docassemble/VSS12021/', package='docassemble.VSS12021'),
+      package_data=find_package_data(where='docassemble/LLAW33012021S1VSS1/', package='docassemble.LLAW33012021S1VSS1'),
      )
 
